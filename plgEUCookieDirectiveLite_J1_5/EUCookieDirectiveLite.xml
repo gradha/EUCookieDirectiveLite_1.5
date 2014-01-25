@@ -18,6 +18,6 @@
     <params>
         <param name="width" type="text" default="0" label="Width px (0 = full width)" description="The width of the message on the screen. 0 for 100%" />
         <param name="warningMessage" type="textarea" rows="3" cols="15" default="Nuestra web utiliza cookies para mejorar la página web y su experiencia cuando la usa. Cookies esenciales para la operativa del sitio ya han sido guardadas en su máquina. Si continúa navegando, consideramos que acepta su uso." label="Mensaje de aviso" description="The message to display to users" />
-        <param name="detailsUrl" type="text" default="index.php?" label="Details URL" description="A link to the details page on this site for more information" />
+		<param name="detailsUrl" type="text" default="/documentos/53-varios/307-politica-de-privacidad.html" label="Details URL" description="A link to the details page on this site for more information" />
     </params>
 </install>
