@@ -17,7 +17,7 @@
     </files> 
     <params>
         <param name="width" type="text" default="0" label="Width px (0 = full width)" description="The width of the message on the screen. 0 for 100%" />
-        <param name="warningMessage" type="textarea" rows="3" cols="15" default="We use cookies to improve our website and your experience when using it. Cookies used for the essential operation of the site have already been set." label="Warning Message" description="The message to display to users" />
+        <param name="warningMessage" type="textarea" rows="3" cols="15" default="Nuestra web utiliza cookies para mejorar la página web y su experiencia cuando la usa. Cookies esenciales para la operativa del sitio ya han sido guardadas en su máquina. Si continúa navegando, consideramos que acepta su uso." label="Mensaje de aviso" description="The message to display to users" />
         <param name="detailsUrl" type="text" default="index.php?" label="Details URL" description="A link to the details page on this site for more information" />
     </params>
 </install>

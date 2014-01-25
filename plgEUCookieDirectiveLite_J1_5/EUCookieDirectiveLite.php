@@ -121,14 +121,14 @@ class  plgSystemEUCookieDirectiveLite extends JPlugin
             $strOutputHTML .= '<tr>';
             $strOutputHTML .= '<td colspan="2">';
             $strOutputHTML .= '<div id="cookieMessageText" style="padding:6px 10px 0 15px;">';
-            $strOutputHTML .= '<p style="color:#fff!important">' . $message . ' To find out more about the cookies we use and how to delete them, see our <a id="cookieMessageDetailsLink" style="color:#fff!important; text-decoration: underline;" title="View our privacy policy page" href="' . $privacyLink . '">privacy policy</a>.</p>';
+            $strOutputHTML .= '<p style="color:#fff!important">' . $message . ' Para obtener más información sobre las cookies vea nuestra <a id="cookieMessageDetailsLink" style="color:#fff!important; text-decoration: underline;" title="Vea nuestra política de privacidad" href="' . $privacyLink . '">política de privacidad</a>.</p>';
             $strOutputHTML .= '</div>';
             $strOutputHTML .= '</td>';
             $strOutputHTML .= '</tr>';
             $strOutputHTML .= '<tr>';
             $strOutputHTML .= '<td>';
-            $strOutputHTML .= '<span class="accept"><span class="cookieMessageText" style="color:#fff;" !important;>I accept cookies from this site.</span></span></label> ';				
-            $strOutputHTML .= '<div border="0" class="cookie_button" id="continue_button" onclick="SetCookie(\'cookieAcceptanceCookie\',\'accepted\',9999);">Agree</div>';
+            $strOutputHTML .= '<span class="accept"><span class="cookieMessageText" style="color:#fff;" !important;>Acepto cookies de este sitio.</span></span></label> ';
+            $strOutputHTML .= '<div border="0" class="cookie_button" id="continue_button" onclick="SetCookie(\'cookieAcceptanceCookie\',\'accepted\',9999);">Acepto</div>';
             $strOutputHTML .= '</p></td>';
             $strOutputHTML .= '<td align="right">';
             $strOutputHTML .= '<div id="cookieMessageInformationIcon" style="float:right"><a href="http://www.channeldigital.co.uk/developer-resources/eu-cookie-directive-module.html" target="_blank" title="Open EU Cookie Directive Module Information in a new tab or window"><img id="info_icon" src="' . $ICON_FOLDER . 'info_icon.png" alt="EU Cookie Directive Module Information" border="0" width="20" height="20" /></a></div>';
